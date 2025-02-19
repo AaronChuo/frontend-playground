@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Next.js build output
+.next/
+out/
+.cache/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# Logs & Debugging
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Jest & Testing
+coverage/
+jest-cache/
+jest-stare/
+
+# Build artifacts
+dist/
+build/
+public/static/
+public/assets/
+
+# TailwindCSS
+.tailwind/
+
+# Sass cache
+.sass-cache/
+
+# Next.js TypeScript cache
+.next/standalone/
+.next/cache/
+
+# MacOS
+*.DS_Store
