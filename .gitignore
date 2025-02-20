@@ -61,7 +61,13 @@ public/assets/
 playground/*
 
 # But do not ignore the folder itself
-!playground/.gitignore
+!playground/index.html
+!playground/index-ts.html
 
 # parcel
 .parcel-cache
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+*.d.ts.map

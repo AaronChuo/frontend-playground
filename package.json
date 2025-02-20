@@ -6,7 +6,9 @@
   "scripts": {
     "playground": "node scripts/playground.js",
     "play:js": "node playground/playground.js",
+    "play:ts": "ts-node playground/playground.ts",
     "play:react": "parcel playground/index.html --open",
+    "play:react-ts": "parcel playground/index-ts.html --open",
     "play:jest": "jest playground/playground.test.js",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write ."
@@ -28,6 +30,8 @@
     "@babel/preset-react": "^7.26.3",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "autoprefixer": "^10.4.20",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
@@ -35,6 +39,8 @@
     "postcss": "^8.5.2",
     "process": "^0.11.10",
     "sass": "^1.85.0",
-    "tailwindcss": "^4.0.7"
+    "tailwindcss": "^4.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
