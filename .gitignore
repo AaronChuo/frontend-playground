@@ -56,3 +56,12 @@ public/assets/
 
 # MacOS
 *.DS_Store
+
+# Ignore all files inside the playground/ directory
+playground/*
+
+# But do not ignore the folder itself
+!playground/.gitignore
+
+# parcel
+.parcel-cache
